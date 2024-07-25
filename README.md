@@ -3,6 +3,12 @@ GPT for movie plots. Utilizes GPT2 tokenizer and Pytorch Transformer library
 
 
 ## Usage
+Create and activate the conda environment
+```
+mamba env create -f env.yml
+conda activate movie_gpt
+```
+
 Download the HuggingFace Model Repo
 ```
 git clone https://huggingface.co/atancoder/movie_plot_gpt
